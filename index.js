@@ -1,4 +1,4 @@
-exports.printMsg = function() {
+module.exports.printMsg = function() {
   console.log("This is a message from the demo package");
 }
 
@@ -11,6 +11,6 @@ exports.printMsg = function() {
  * @param {string} locale
  * @return {string}
  */
-module.exports = function(number, locale) {
+module.exports.numFormater = function(number, locale) {
     return number.toLocaleString(locale);
 };
