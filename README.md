@@ -2,6 +2,8 @@
 Number Formatter
 =========
 
+[![Coverage Status](https://coveralls.io/repos/github/williamdekou/number-formatter/badge.svg?branch=master)](https://coveralls.io/github/williamdekou/number-formatter?branch=master)
+
 A small library that adds commas to numbers
 
 ## Installation
