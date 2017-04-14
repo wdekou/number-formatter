@@ -1,0 +1,25 @@
+{
+  "name": "first-module",
+  "version": "0.0.1",
+  "description": "My first node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan"
+  },
+  "git": "https://github.com/williamdekou/number-formatter",
+  "keywords": [
+    "first",
+    "module",
+    "learn",
+    "test"
+  ],
+  "author": "William Dekou",
+  "license": "ISC",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
